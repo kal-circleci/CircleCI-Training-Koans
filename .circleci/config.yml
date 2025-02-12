@@ -5,7 +5,7 @@ jobs:
     docker: cimg/base:2022.10
     steps:
       - checkout
-      - run
+      - run:
           name: "'run' statements can actually contain a 'name' and 'command' argument as well"
           command: | 
             echo "You can even have multiline commands."
